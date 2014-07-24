@@ -1,0 +1,15 @@
+[
+{
+  "modid": "ThatConferenceBacon",
+  "name": "That Conference - Minecraft Modding with Bacon!",
+  "description": "BACON!!",
+  "version": "v0.0.1",
+  "mcversion": "1.7.10",
+  "updateUrl": "",
+  "authors": ["pvanhouten"],
+  "credits": "MinecraftWero for creating the bacon images",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
