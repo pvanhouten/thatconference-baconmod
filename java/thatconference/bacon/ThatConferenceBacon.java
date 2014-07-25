@@ -58,6 +58,9 @@ public class ThatConferenceBacon {
 	public static ItemArmor BaconLeggings = new BaconLeggings();
 	public static ItemArmor BaconBoots = new BaconBoots();
 	
+	// records
+	public static ItemRecord BaconPancakesRecord = new BaconPancakesRecord();
+	
 	
 	@SidedProxy(clientSide = "thatconference.bacon.client.ClientProxy", serverSide="thatconference.bacon.CommonProxy")
 	public static CommonProxy proxy;
@@ -82,6 +85,9 @@ public class ThatConferenceBacon {
 		GameRegistry.registerItem(BaconHoe, "baconHoe");
 		GameRegistry.registerItem(BaconPickaxe, "baconPickaxe");
 		GameRegistry.registerItem(BaconShovel, "baconShovel");
+		
+		// records
+		GameRegistry.registerItem(BaconPancakesRecord, "baconPancakesRecord");
 		
 		// shapeless recipes
 		GameRegistry.addShapelessRecipe(new ItemStack(RawBaconItem, 4), new ItemStack(Items.porkchop)); // porkchops to 4x bacon

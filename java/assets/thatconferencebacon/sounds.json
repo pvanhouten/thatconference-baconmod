@@ -1,0 +1,8 @@
+{
+    "BaconPancakes": {
+        "category": "master",
+        "sounds": [
+            { "name": "BaconPancakes","stream": true }
+        ]
+    }
+}
