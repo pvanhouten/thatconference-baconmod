@@ -1,5 +1,6 @@
 package thatconference.bacon.items;
 
+import thatconference.bacon.ThatConferenceBacon;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
@@ -13,6 +14,6 @@ public class RawBacon extends ItemFood {
 		maxStackSize = 64;
 		setCreativeTab(CreativeTabs.tabFood);
 		setUnlocalizedName("rawBacon");
-		setTextureName("thatconferencebacon:rawBacon");
+		setTextureName(ThatConferenceBacon.ModId + ":rawBacon");
 	}
 }

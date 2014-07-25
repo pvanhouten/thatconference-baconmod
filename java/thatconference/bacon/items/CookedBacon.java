@@ -1,5 +1,6 @@
 package thatconference.bacon.items;
 
+import thatconference.bacon.ThatConferenceBacon;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemFood;
 
@@ -11,7 +12,7 @@ public class CookedBacon extends ItemFood {
 		maxStackSize = 64;
 		setCreativeTab(CreativeTabs.tabFood);
 		setUnlocalizedName("cookedBacon");
-		setTextureName("thatconferencebacon:cookedBacon");
+		setTextureName(ThatConferenceBacon.ModId + ":cookedBacon");
 	}
 
 }
