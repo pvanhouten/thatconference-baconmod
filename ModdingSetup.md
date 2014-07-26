@@ -10,9 +10,9 @@ A reference of applications needed for creating Minecraft mods using Minecraft F
  1. You will have this if you play Minecraft on your computer
  1. Google JRE 7 Download
  1. Install using the provided installer
-1. **JDK v.7 (Java Development Kit)**
- 1. Google Java JDK 7 download
- 1 Install using the provided installer
+1. **JDK v.7 (Java Development Kit)**  
+ 1. Google Java JDK 7 download  
+ 1 Install using the provided installer  
 1. **Minecraft Forge** ("latest" source (src))
  1. http://files.minecraftforge.net/
  1. See below for installation
