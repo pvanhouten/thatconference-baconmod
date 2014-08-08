@@ -57,7 +57,7 @@ Once that complete then type this in the command window:
 
    
    
-You are now ready to build some mods!  Open eclipse.  Have eclipse open the Workspace at BaconMod\eclipse and write some code!
+You are now ready to build some mods!  Open eclipse.  Have eclipse open the Workspace at BaconMod\eclipes and write some code!
 
 
 
