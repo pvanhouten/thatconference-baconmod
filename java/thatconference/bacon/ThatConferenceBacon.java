@@ -1,5 +1,6 @@
 package thatconference.bacon;
 
+import net.minecraft.block.Block;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.*;
@@ -7,6 +8,7 @@ import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 import sun.util.logging.resources.logging;
 import thatconference.bacon.items.*;
+import thatconference.bacon.blocks.*;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -17,8 +19,10 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
+// tell forge that this is our mod file
 @Mod(modid=ThatConferenceBacon.ModId, name="ThatConferenceBacon", version="0.0.1")
 public class ThatConferenceBacon {
+	// tell forge this is the instance of our mod
 	@Instance(value = "ThatConferenceBacon")
 	public static ThatConferenceBacon instance;
 	
@@ -61,6 +65,8 @@ public class ThatConferenceBacon {
 	// records
 	public static ItemRecord BaconPancakesRecord = new BaconPancakesRecord();
 	
+	// blocks
+	public static Block BaconBlock = new BaconBlock();
 	
 	@SidedProxy(clientSide = "thatconference.bacon.client.ClientProxy", serverSide="thatconference.bacon.CommonProxy")
 	public static CommonProxy proxy;
@@ -105,6 +111,11 @@ public class ThatConferenceBacon {
 		GameRegistry.addShapedRecipe(new ItemStack(BaconHoe, 1), new Object[] { "BB ", " S ", " S ", 'B', CookedBaconItem, 'S', Items.stick });
 		GameRegistry.addShapedRecipe(new ItemStack(BaconPickaxe, 1), new Object[] { "BBB", " S ", " S ", 'B', CookedBaconItem, 'S', Items.stick });
 		GameRegistry.addShapedRecipe(new ItemStack(BaconShovel, 1), new Object[] { " B ", " S ", " S ", 'B', CookedBaconItem, 'S', Items.stick });
+		
+		// blocks
+		GameRegistry.registerBlock(BaconBlock, "baconBlock");
+		GameRegistry.addShapedRecipe(new ItemStack(BaconBlock, 1),  new Object[] { "BBB", "BBB", "BBB", 'B', CookedBaconItem });
+		GameRegistry.addShapelessRecipe(new ItemStack(CookedBaconItem, 9), new ItemStack(BaconBlock));
 		
 		// smelting recipes
 		GameRegistry.addSmelting(RawBaconItem, new ItemStack(CookedBaconItem), 0);
