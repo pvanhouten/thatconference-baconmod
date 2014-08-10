@@ -19,4 +19,4 @@ The recommended age for this session is 6th grade and up for children who want t
 All original mod code was written by [pvanhouten](http://twitter.com/pvanhouten).  Feel free to modify and distribute as you like.
 
 ###Credits
-Bacon assets come from the [BaconMod by MinecraftWero](http://www.minecraftforum.net/topic/1499035-145-bacon-mod-v2-smpssplan-huge-update).
+Bacon assets (images and sounds) come from the [BaconMod by MinecraftWero](http://www.minecraftforum.net/topic/1499035-145-bacon-mod-v2-smpssplan-huge-update).
