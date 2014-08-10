@@ -15,8 +15,12 @@ In this session, we will create the legendary set of That Conference bacon armor
 
 The recommended age for this session is 6th grade and up for children who want to learn about creating Minecraft mods using Eclipse.  Parents who want to work with their younger children (2nd through 5th grade) to create mods are welcome to join us as well!
 
-
 All original mod code was written by [pvanhouten](http://twitter.com/pvanhouten).  Feel free to modify and distribute as you like.
+
+For more information on setting up your environment, [see here](ModdingSetup.md).  [Additional information about working with the mod can be found here](HowToHackOnThisMod.md).
+
+###Contributions
+I would love to see other campers contribute their own creative additions to this mod! Please submit any additions you would like to see in the mod via pull request.
 
 ###Credits
 Bacon assets (images and sounds) come from the [BaconMod by MinecraftWero](http://www.minecraftforum.net/topic/1499035-145-bacon-mod-v2-smpssplan-huge-update).
