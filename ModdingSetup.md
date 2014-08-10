@@ -34,12 +34,12 @@ In Windows 8, from the start screen, type **my computer**. When it shows in the 
   
   
 #### Installing Eclipse
-Inclipse doesn't require an installer.  You basically copy it into a folder and run eclipse.exe.  Wen you open the Eclipse zip file you will see a folder named *eclipse*.  Simply copy this folder into c:\Program Files\ and create a shortcut to eclipse.exe on your desktop or taskbar.  
+Eclipse doesn't require an installer.  You basically copy it into a folder and run eclipse.exe.  When you open the Eclipse zip file you will see a folder named *eclipse*.  Simply copy this folder into c:\Program Files\ and create a shortcut to eclipse.exe on your desktop or taskbar.  
 
 Simply double-click the shortcut and you are good to go. 
 
 #### Installing Minecraft Forge
-Create a folder where you want to create your mod.  For simplicity we are going to create the folder on the desktop and name it BaconMod  
+Create a folder where you want to create your mod.  For simplicity we are going to create the folder on the desktop and name it BaconMod.
 
 Once you have the folder crated, open the zip file from Minecraft Forge and copy its contents into your BaconMod folder.  
   
