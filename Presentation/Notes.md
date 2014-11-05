@@ -52,7 +52,7 @@ Add files:
  1. ClientProxy.java `demo1ClientProxy`
 1. Package: thatconferencebacon
  1. CommonProxy.java `demo1CommonProxy`
- 1. ThatConferenceBacon.java `demo1ModClass1`
+ 1. ThatConferenceBacon.java `demo1ModClass`
 1. main/resources
  1. mcmod.info `demo1McModInfo`
 
