@@ -7,13 +7,6 @@
 1. WinRAR (or 7Zip)
 1. Minecraft (v1.7.10)
 
-##Mod Structure
-- 4 main files:
- - Main mod file (where all our code goes)
- - Client proxy (client specific code)
- - Common proxy (server specific code)
- - mcmod.info (details about or mod shown within Minecraft)
-
 
 ##Set up our workspace
 - Download Eclipse
@@ -24,6 +17,15 @@
   - `gradlew eclipse`
 - Open Eclipse and set workspace folder to [Forge Folder]\eclipse
 - Import code templates (Window -> Preferences -> Java -> Editor -> Templates -> Import)
+
+
+##Mod Structure
+- 4 main files:
+ - Main mod file (where all our code goes)
+ - Client proxy (client specific code)
+ - Common proxy (server specific code)
+ - mcmod.info (details about or mod shown within Minecraft)
+
 
 ## Demo 1 - Mod shell
 Package naming conventions:
