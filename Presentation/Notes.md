@@ -244,6 +244,9 @@ Update files
   1. In preInit `demo11ModPreInit`
  1. CommonProxy.java
   1. In initialize `demo11CommonProxyInitialize`
+1. Package: thatconferencebacon.items
+ 1. BaconBoots.java
+  1. In class `demo11BaconBootProperties`
 
 ### Run the game to show that wearing the boots gives us a boost of speed and we slow back down when we take them off
 
