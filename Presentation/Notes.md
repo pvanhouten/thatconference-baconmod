@@ -268,7 +268,7 @@ Update files
 1. Package: thatconferencebacon
  1. ThatConferenceBacon.java
   1. In mod class `demo12InstantiateRecord`
-  1. In preInit `demo12RegisterRecord`, `demo10Recipes`
+  1. In preInit `demo12RegisterRecord`
 1. Package: assets.thatconferencebacon.lang
  1. en_US.lang `demo12Language`
 
