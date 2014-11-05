@@ -166,7 +166,7 @@ Update files
 
 1. Package: thatconferencebacon
  1. ThatConferenceBacon.java
-  1. In preInit `demo8ShapredRecipes`
+  1. In preInit `demo8ShapedRecipes`
 
 ### Run the game to show crafting of armor from bacon
 
