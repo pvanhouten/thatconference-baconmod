@@ -247,3 +247,9 @@ Update files
  1. en_US.lang `demo12Language`
 
 ### Start bumping some bacon pancakes
+
+
+##Demo 13 - Packaging our mod
+1. Command prompt in forge directory, run `gradlew build`
+1. Rename resulting jar file
+1. Open jar and copy in assets folder
