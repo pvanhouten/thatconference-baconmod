@@ -34,6 +34,7 @@ Package naming conventions:
 - [modid].items...
 
 Add packages:
+
 - assets.thatconferencebacon
 - assets.thatconferencebacon.lang
 - assets.thatconferencebacon.sounds
@@ -45,6 +46,7 @@ Add packages:
 - thatconferencebacon.items
 
 Add files:
+
 1. Package: thatconferencebacon.client
  1. ClientProxy.java `demo1ClientProxy`
 1. Package: thatconferencebacon
@@ -58,10 +60,12 @@ Add files:
 
 ##Demo 2 - Bacon Item
 Add files:
+
 1. Package: thatconferencebacon.items
  1. RawBacon.java `demo2RawBaconClass`
 
 Update files:
+
 1. Package: thatconferencebacon
  1. ThatConferenceBacon.java
   1. In mod class `demo2ItemInstantiation`
@@ -70,6 +74,7 @@ Update files:
 ### Run the game to show the bacon item in the game with busted image
 
 Add files:
+
 1. Package: assets.thatconferencebacon.textures.items
  1. rawBacon.png
 
@@ -78,6 +83,7 @@ Add files:
 
 ##Demo 4 - Language file
 Add files:
+
 1. Package: assets.thatconferencebacon.lang
  1. en_US.lang `demo4LanguageFile`
 
@@ -86,6 +92,7 @@ Add files:
 Intro: Shapeless, Shaped, Smelting
 
 Update files:
+
 1. Package: thatconferencebacon
  1. ThatConferenceBacon.java
   1. In preInit `demo5Recipe`
@@ -97,12 +104,14 @@ Update files:
 Intro: Let's cook some bacon!
 
 Add files
+
 1. Package: thatconferencebacon.items
  1. CookedBacon.java `demo6CookedBaconClass`
 1. Package: assets.thatconferencebacon.items
  1. cookedBacon.png
 
 Update files:
+
 1. Package: thatconferencebacon
  1. ThatConferenceBacon.java
   1. In mod class `demo6CookedBaconInstance`
@@ -120,6 +129,7 @@ Intro: Materials
  - Enchantability: Number of levels the armor can be enchanted
 
 Add files
+
 1. Package: thatconferencebacon.items
  1. BaconBoots.java `demo7BaconBoots`
  1. BaconHelmet.java `demo7BaconHelmet`
@@ -135,6 +145,7 @@ Add files
  1. bacon_layer_2.png
 
 Update files
+
 1. Package: thatconferencebacon
  1. ThatConferenceBacon.java
   1. In mod class `demo7ArmorMaterial`, `demo7InstantiateArmor`
@@ -151,6 +162,7 @@ Intro:
 - Example: "B B", "BBB", "BBB", 'B', CookedBaconItem
 
 Update files
+
 1. Package: thatconferencebacon
  1. ThatConferenceBacon.java
   1. In preInit `demo8ShapredRecipes`
@@ -160,12 +172,14 @@ Update files
 
 ##Demo 9 - Blocks
 Add files
+
 1. Package: thatconferencebacon.blocks
  1. BaconBlock.java `demo9BaconBlock`
 1. Package: assets.thatconferencebacon.blocks
  1. baconBlock.png
 
 Update files
+
 1. Package: thatconferencebacon
  1. ThatConferenceBacon.java
   1. In mod class `demo9InstantiateBaconBlock`
@@ -185,6 +199,7 @@ Intro: Tool Material
 - Enchantability: Number of levels the armor can be enchanted
 
 Add files
+
 1. Package: thatconferencebacon.items
  1. BaconAxe.java `demo10BaconAxeClass`
  1. BaconHoe.java `demo10BaconHoeClass`
@@ -199,6 +214,7 @@ Add files
  1. baconSword.png
 
 Update files
+
 1. Package: thatconferencebacon
  1. ThatConferenceBacon.java
   1. In mod class `demo10InstantiateTools`, `demo10ToolMaterial`
@@ -215,10 +231,12 @@ Update files
 Intro: Ticks = events that happen many times per second that you can hook into to perform an action
 
 Add files
+
 1. Package: thatconferencebacon
  1. PlayerTickHandler.java `demo11PlayerTickHandlerClass`
 
 Update files
+
 1. Package: thatconferencebacon
  1. ThatConferenceBacon.java
   1. In preInit `demo11ModPreInit`
@@ -230,6 +248,7 @@ Update files
 
 ##Demo 12 - Sounds
 Add files
+
 1. Package: thatconferencebacon.items
  1. BaconPancakesRecord.java `demo12BaconPancakesRecord`
 1. Package: assets.thatconferencebacon.textures.items
@@ -240,6 +259,7 @@ Add files
  1. BaconPancakes.ogg
 
 Update files
+
 1. Package: thatconferencebacon
  1. ThatConferenceBacon.java
   1. In mod class `demo12InstantiateRecord`
