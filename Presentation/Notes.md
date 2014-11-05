@@ -43,6 +43,7 @@ Add packages:
 - assets.thatconferencebacon.textures.items
 - assets.thatconferencebacon.textures.models.armor
 - thatconferencebacon
+- thatconferencebacon.blocks
 - thatconferencebacon.client
 - thatconferencebacon.items
 
