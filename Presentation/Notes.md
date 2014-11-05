@@ -18,6 +18,7 @@
   - `gradlew eclipse`
 - Open Eclipse and set workspace folder to [Forge Folder]\eclipse
 - Import code templates (Window -> Preferences -> Java -> Editor -> Templates -> Import)
+- Show empty parent packages (Package Explorer dropdown -> Filters -> uncheck 'Empty Parent Packages')
 
 
 ##Mod Structure
