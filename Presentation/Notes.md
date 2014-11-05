@@ -11,7 +11,8 @@
 ##Set up our workspace
 - Download Eclipse
 - Download Forge
-- Extract Forge to folder on desktop
+- Run Forge installer for Minecraft Client
+- Extract Forge src to folder on desktop
  - From command line in forge folder: 
   - `gradlew setupDecompWorkspace`
   - `gradlew eclipse`
